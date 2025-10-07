@@ -1,5 +1,8 @@
 """
+Enrique Aranda Gutiérrez
+Carlos Ariel González Ramírez
 Eric Fernando Panas López Dellamary
+Juan Pablo Zepeda Orozco
 
 07/10/2025
 
