@@ -1,15 +1,22 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+Eric Fernando Panas López Dellamary
+
+07/10/2025
+
+Dado un número, el programa determina si es primo o no.
 """
-
-# Declaraciones
-CONSTANTE = valor
-
 # Entradas
-entrada = input()
+numero = int(input("Ingresa un número: "))
 
 # Proceso
-
+if numero > 1:
+    primo = "sí"
+    x = 2
+    while x < numero:
+        if numero % x == 0:
+            primo = "no"
+            break
+        x += 1
 
 # Salidas
-print(salida)
+print(f'El número {numero} {primo} es primo')
